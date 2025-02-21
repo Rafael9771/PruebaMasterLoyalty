@@ -19,6 +19,8 @@ public partial class Cliente
 
     public string CiCorreo { get; set; } = null!;
 
+    public string CiRol { get; set; } = null!;
+
     public DateTime CiDcreate { get; set; }
 
     public byte CiStatus { get; set; }

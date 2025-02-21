@@ -57,6 +57,9 @@ public partial class AppDbContext : DbContext
             entity.Property(e => e.ArImagen)
                 .HasDefaultValue("")
                 .HasColumnName("ar_imagen");
+            entity.Property(e => e.ArNombre)
+                .HasDefaultValue("")
+                .HasColumnName("ar_nombre");
             entity.Property(e => e.ArPrecio)
                 .HasColumnType("decimal(10, 2)")
                 .HasColumnName("ar_precio");
@@ -115,6 +118,10 @@ public partial class AppDbContext : DbContext
             entity.Property(e => e.CiPrimerApellido)
                 .HasDefaultValue("")
                 .HasColumnName("ci_primer_apellido");
+            entity.Property(e => e.CiRol)
+                .HasMaxLength(1)
+                .HasDefaultValue("2")
+                .HasColumnName("ci_rol");
             entity.Property(e => e.CiSegundoApellido)
                 .HasDefaultValue("")
                 .HasColumnName("ci_segundo_apellido");
