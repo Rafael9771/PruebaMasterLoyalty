@@ -5,6 +5,138 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/articulo": {
+      "get": {
+        "tags": [
+          "Articulo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Articulo"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Articulo"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Articulo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/articulo/create": {
+      "post": {
+        "tags": [
+          "Articulo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/createArticuloReq"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/createArticuloReq"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/createArticuloReq"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/articulo/Delete": {
+      "delete": {
+        "tags": [
+          "Articulo"
+        ],
+        "parameters": [
+          {
+            "name": "req",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/articulo/Update": {
+      "put": {
+        "tags": [
+          "Articulo"
+        ],
+        "parameters": [
+          {
+            "name": "guid",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/createArticuloReq"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/createArticuloReq"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/createArticuloReq"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/users": {
       "get": {
         "tags": [
@@ -144,6 +276,52 @@
   },
   "components": {
     "schemas": {
+      "Articulo": {
+        "type": "object",
+        "properties": {
+          "arId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "arGuid": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "arNombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "arCodigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "arDescripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "arPrecio": {
+            "type": "number",
+            "format": "double"
+          },
+          "arImagen": {
+            "type": "string",
+            "nullable": true
+          },
+          "arStock": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "arDcreate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "arStatus": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "Cliente": {
         "type": "object",
         "properties": {
@@ -172,6 +350,10 @@
             "nullable": true
           },
           "ciCorreo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ciRol": {
             "type": "string",
             "nullable": true
           },
@@ -205,6 +387,36 @@
           "summary": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "createArticuloReq": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigo": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "precio": {
+            "type": "number",
+            "format": "double"
+          },
+          "imagen": {
+            "type": "string",
+            "nullable": true
+          },
+          "stock": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

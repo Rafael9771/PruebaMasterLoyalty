@@ -9,6 +9,8 @@ public partial class Articulo
 
     public Guid ArGuid { get; set; }
 
+    public string ArNombre { get; set; } = null!;
+
     public string ArCodigo { get; set; } = null!;
 
     public string ArDescripcion { get; set; } = null!;

@@ -1,5 +1,78 @@
 [
   {
+    "ContainingType": "ApiExpedienteMedico.Controllers.ArticuloController",
+    "Method": "Get",
+    "RelativePath": "api/articulo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[apiMasterLoyalty.Models.Articulo, apiMasterLoyalty, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.ArticuloController",
+    "Method": "Post",
+    "RelativePath": "api/articulo/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "apiMasterLoyalty.Request.createArticuloReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.ArticuloController",
+    "Method": "DeleteArticle",
+    "RelativePath": "api/articulo/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.ArticuloController",
+    "Method": "UpdateArticle",
+    "RelativePath": "api/articulo/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "req",
+        "Type": "apiMasterLoyalty.Request.createArticuloReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiExpedienteMedico.Controllers.UserController",
     "Method": "Get",
     "RelativePath": "api/users",

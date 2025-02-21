@@ -8,6 +8,7 @@ end
 create table articulo (
 	arId int not null identity(1,1) constraint pk_articulo primary key,
 	arGuid uniqueidentifier not null constraint const_articulo_guid default newid(),
+	ar_nombre nvarchar(MAX) not null constraint const_articulo_nombre default '',
 	ar_codigo nvarchar(max) not null constraint const_articulo_codigo default '',
 	ar_descripcion nvarchar(max) not null constraint const_articulo_descripcion default '',
 	ar_precio DECIMAL(10,2) NOT NULL CONSTRAINT const_articulo_precio DEFAULT 0.00,

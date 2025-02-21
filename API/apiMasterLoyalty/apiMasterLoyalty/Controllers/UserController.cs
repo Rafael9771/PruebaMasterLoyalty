@@ -11,8 +11,8 @@ using apiMasterLoyalty.Models;
 using apiMasterLoyalty.Data;
 
 
-namespace ApiExpedienteMedico.Controllers
-{
+namespace ApiExpedienteMedico.Controllers;
+
 
     [ApiController]
     [Route("api/users")]
@@ -301,8 +301,8 @@ namespace ApiExpedienteMedico.Controllers
                     {
 
 
-
-                        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+                    
+                    var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
                         var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
                         var claims = new[]
@@ -775,4 +775,4 @@ namespace ApiExpedienteMedico.Controllers
             }
         }*/
     }
-}
+
