@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{884C231D-0C19-46A3-B856-B66447A3274C}|apiMasterLoyalty\\apiMasterLoyalty.csproj|c:\\users\\ranfla\\documents\\pruebatecnica\\masterloyalty\\pruebamasterloyalty\\api\\apimasterloyalty\\apimasterloyalty\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884C231D-0C19-46A3-B856-B66447A3274C}|apiMasterLoyalty\\apiMasterLoyalty.csproj|solutionrelative:apimasterloyalty\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884C231D-0C19-46A3-B856-B66447A3274C}|apiMasterLoyalty\\apiMasterLoyalty.csproj|c:\\users\\ranfla\\documents\\pruebatecnica\\masterloyalty\\pruebamasterloyalty\\api\\apimasterloyalty\\apimasterloyalty\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{884C231D-0C19-46A3-B856-B66447A3274C}|apiMasterLoyalty\\apiMasterLoyalty.csproj|solutionrelative:apimasterloyalty\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884C231D-0C19-46A3-B856-B66447A3274C}|apiMasterLoyalty\\apiMasterLoyalty.csproj|c:\\users\\ranfla\\documents\\pruebatecnica\\masterloyalty\\pruebamasterloyalty\\api\\apimasterloyalty\\apimasterloyalty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884C231D-0C19-46A3-B856-B66447A3274C}|apiMasterLoyalty\\apiMasterLoyalty.csproj|solutionrelative:apimasterloyalty\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884C231D-0C19-46A3-B856-B66447A3274C}|apiMasterLoyalty\\apiMasterLoyalty.csproj|c:\\users\\ranfla\\documents\\pruebatecnica\\masterloyalty\\pruebamasterloyalty\\api\\apimasterloyalty\\apimasterloyalty\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{884C231D-0C19-46A3-B856-B66447A3274C}|apiMasterLoyalty\\apiMasterLoyalty.csproj|solutionrelative:apimasterloyalty\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{884C231D-0C19-46A3-B856-B66447A3274C}|apiMasterLoyalty\\apiMasterLoyalty.csproj|c:\\users\\ranfla\\documents\\pruebatecnica\\masterloyalty\\pruebamasterloyalty\\api\\apimasterloyalty\\apimasterloyalty\\apimasterloyalty.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{884C231D-0C19-46A3-B856-B66447A3274C}|apiMasterLoyalty\\apiMasterLoyalty.csproj|solutionrelative:apimasterloyalty\\apimasterloyalty.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\apiMasterLoyalty\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "apiMasterLoyalty\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\apiMasterLoyalty\\Controllers\\UserController.cs",
+              "RelativeToolTip": "apiMasterLoyalty\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAIwEoBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:54:24.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\apiMasterLoyalty\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "apiMasterLoyalty\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\apiMasterLoyalty\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "apiMasterLoyalty\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:34:40.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "apiMasterLoyalty.csproj",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\apiMasterLoyalty\\apiMasterLoyalty.csproj",
+              "RelativeDocumentMoniker": "apiMasterLoyalty\\apiMasterLoyalty.csproj",
+              "ToolTip": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\apiMasterLoyalty\\apiMasterLoyalty.csproj",
+              "RelativeToolTip": "apiMasterLoyalty\\apiMasterLoyalty.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-21T07:34:15.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\apiMasterLoyalty\\Program.cs",
+              "RelativeDocumentMoniker": "apiMasterLoyalty\\Program.cs",
+              "ToolTip": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\apiMasterLoyalty\\Program.cs",
+              "RelativeToolTip": "apiMasterLoyalty\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T07:33:51.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\apiMasterLoyalty\\appsettings.json",
+              "RelativeDocumentMoniker": "apiMasterLoyalty\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ranfla\\Documents\\PruebaTecnica\\MasterLoyalty\\PruebaMasterLoyalty\\API\\apiMasterLoyalty\\apiMasterLoyalty\\appsettings.json",
+              "RelativeToolTip": "apiMasterLoyalty\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T07:33:10.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
