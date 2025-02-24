@@ -13,6 +13,7 @@ create table cliente (
 	ci_segundo_apellido nvarchar(max) not null constraint const_cliente_segundo_apellido default '',
 	ci_password nvarchar(max) not null constraint const_cliente_password default '',
 	ci_correo nvarchar(max) not null constraint const_cliente_correo default '',
-	ci_dcreate datetime not null constraint const_config_dcreate default getdate(),
-	ci_status tinyint not null constraint const_config_status default 1
+	ci_rol nvarchar(1) not null constraint const_cliente_rol default '2', --Roles 1=Admin, 2=Cliente
+	ci_dcreate datetime not null constraint const_cliente_dcreate default getdate(),
+	ci_status tinyint not null constraint const_cliente_status default 1
 )
