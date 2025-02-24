@@ -10,6 +10,7 @@ create table tienda_articulo (
 	tiarGuid uniqueidentifier not null constraint const_tienda_articulo_guid default newid(),
 	tiar_tiId int not null constraint const_tienda_articulo_tiendaId default 0,
 	tiar_arId int not null constraint const_tienda_articulo_articuloId default 0,
+	tiar_stockTienda int not null constraint const_tienda_articulo_stockTienda default 1, --stock de articulos que se cargaran a la tienda y restaran del stock del articulo original
 	tiar_dcreate datetime not null constraint const_tienda_articulo_dcreate default getdate(),
 	tiar_status tinyint not null constraint const_tienda_articulo_status default 1
 )

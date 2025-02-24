@@ -1,0 +1,334 @@
+[
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.ArticuloController",
+    "Method": "Get",
+    "RelativePath": "api/articulo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MasterLoyaltyApinet6.Models.Articulo, MasterLoyaltyApinet6, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.ArticuloController",
+    "Method": "Post",
+    "RelativePath": "api/articulo/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "apiMasterLoyalty.Request.createArticuloReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.ArticuloController",
+    "Method": "DeleteArticle",
+    "RelativePath": "api/articulo/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.ArticuloController",
+    "Method": "UpdateArticle",
+    "RelativePath": "api/articulo/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "req",
+        "Type": "apiMasterLoyalty.Request.createArticuloReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiMasterLoyalty.Controllers.CarritoController",
+    "Method": "AddArticleToShopCart",
+    "RelativePath": "api/carrito/AddArticleToShopCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "apiMasterLoyalty.Request.AddArticleToShopCartReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiMasterLoyalty.Controllers.CarritoController",
+    "Method": "ClearShopCart",
+    "RelativePath": "api/carrito/ClearShopCart",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiMasterLoyalty.Controllers.CarritoController",
+    "Method": "GetMyShopsCart",
+    "RelativePath": "api/carrito/GetMyShopsCart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[apiMasterLoyalty.Response.responseGetMyCart, MasterLoyaltyApinet6, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MasterLoyaltyApinet6.Controllers.CompraController",
+    "Method": "Comprar",
+    "RelativePath": "api/compra/CreateCompra",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.TiendaController",
+    "Method": "GetShops",
+    "RelativePath": "api/tienda",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MasterLoyaltyApinet6.Models.Tiendum, MasterLoyaltyApinet6, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.TiendaController",
+    "Method": "AddArticleinShop",
+    "RelativePath": "api/tienda/AddArticleinShop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tiendaGuid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Cantidad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "articuloGuid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.TiendaController",
+    "Method": "GetArticles",
+    "RelativePath": "api/tienda/articulosTienda",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tiendaGuid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.TiendaController",
+    "Method": "CreateShop",
+    "RelativePath": "api/tienda/CreateShop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "apiMasterLoyalty.Request.createTiendaReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.TiendaController",
+    "Method": "DeleteShop",
+    "RelativePath": "api/tienda/DeleteShop",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.TiendaController",
+    "Method": "UpdateShop",
+    "RelativePath": "api/tienda/UpdateShop",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "req",
+        "Type": "apiMasterLoyalty.Request.createTiendaReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.UserController",
+    "Method": "Get",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MasterLoyaltyApinet6.Models.Cliente, MasterLoyaltyApinet6, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.UserController",
+    "Method": "Post",
+    "RelativePath": "api/users/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "MasterLoyaltyApinet6.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.UserController",
+    "Method": "PostLogin",
+    "RelativePath": "api/users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mail",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pass",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiExpedienteMedico.Controllers.UserController",
+    "Method": "PostLogin2",
+    "RelativePath": "api/users/login2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterLoyaltyApinet6.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MasterLoyaltyApinet6.WeatherForecast, MasterLoyaltyApinet6, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
